@@ -1,0 +1,163 @@
+h1, h2, h3, p{
+	color: #686666;
+}
+#map {
+	text-align: center;
+	background-image: url("../img/Map.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.auto-height{
+	height: 100%;
+}
+.employee-text{
+	text-align: left;
+	margin-left: 1em;
+	line-height: 80%;
+}
+.fixed-top{
+	z-index: 500;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.no-padding{
+	padding: 0;
+}
+.no-margin-top{
+	margin-top: 0;
+}
+.no-margin{
+	margin: 0;
+}
+ #logo{
+	padding: 4px;
+	height: 4em;
+	width: auto;
+}
+.no-background{
+	background-color: transparent;
+}
+.no-border{
+	border:0;
+}
+
+.spaced-divider{
+	height: 1px;
+	background-color: #686666;
+	background-size: cover;
+}
+.company-message{
+	margin: 4em;
+}
+.footer{
+	padding: 30px;
+}
+.divider-text{
+	color: #686666;
+	margin: 0;
+	padding: 0;
+}
+.background-image{
+	text-align: center;
+	background-image: url("../img/Background_Image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron{
+	margin: 0px;
+	background-color: transparent;
+}
+.bar-color{
+	background-color: #404040!important;
+}
+.header-menu-item{
+	z-index: 1000;
+	height: 3.35em;
+	font-size: 1.2em;
+	background-color: transparent!important;
+}
+.header-menu-item-text{
+	padding-top: 1em!important;
+}
+.header-menu-item:hover{
+	background-color: #7F7F7F!important;
+}
+.navbar-toggle{
+	background-color: #3f3f3f!important;
+}
+
+.navbar{
+	padding: 0;
+	margin: 0;
+}
+.active2{
+	background-color: #2C2C2C;
+}
+.active2 a{
+	color: grey!important;
+}
+
+.white{
+	color: white;
+}
+.margin-top-bottom{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.rounded-circle{
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.button-style{
+	width: 150px;
+	border-radius: 50px;
+	background-color: #3189EB;
+	margin: 50px;
+	border: 0;
+}
+.social-logo {
+	display: flex;
+	justify-content: center;
+}
+
+.social-logo img {
+	width: 3em;
+	height: 3em;
+}
+.section-margin{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.footer-company-text {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	color: white;
+}
+
+.transparent-background{
+	border: 1px;
+	border-radius: 10px;
+	padding: 50px;
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don't                                    support rgba */
+  background: rgba(255, 255, 255, .7);
+}
+
+.header-style{
+	height: 70px;
+	margin: 0;
+
+}
+.align-center{
+	text-align: center;
+}
+.heading-style{
+	text-align: center;
+	color: grey;
+}
+
+ #textfältet {
+ 	padding-top: 20px;
+ }

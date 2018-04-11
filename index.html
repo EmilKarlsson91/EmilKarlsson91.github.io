@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Länk till bootstrap css-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="utf-8">
+<!--För att kunna visas korrekt på apple produkter -->
+<meta name="viewport" content="witdth=devicewidth, initial-scale=1">
+<!--Länk till css fil -->
+<link type="text/css" rel="stylesheet" href=".\style\stylesheet.css"/>
+<!--Länk till flik ikon -->
+<link rel="shortcut icon" type="image/x-icon" href=".\img\Head_Logo.ico" />
+<!--Länk till ajax-->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<!--Titel på sidflik-->
+	<title>Company</title>
+
+</head>
+<body>
+  <!--Container för hela sidan -->
+<div id="home" class="container-fluid no-padding">
+
+  <!-- Header bakgrund-->
+      <header>
+        <!--Navbar som ligger i header -->
+        <nav class="navbar navbar-default fixed-top bar-color no-border">
+        <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
+        </div>
+          <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 container-fluid" >
+              <div class="navbar-header">
+              <!--Knappar till menyn, som också är responsiv -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#"><img id="logo" src=".\img\Logo.png"></a>
+              </div>
+              <!--Responsiv navbar -->
+              <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                  <li value="0" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#" >Hem</a></li>
+                  <li value="1" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Tjänster</a></li>
+                  <li value="2" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Om oss</a></li>
+                  <li value="3" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Kontakta oss</a></li>
+                </ul>
+              </div>
+              <!--/Responsiv navbar -->
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
+            </div>
+            </nav>
+          </header>
+
+          <!--Bakgrund med bild -->
+          <div class="background-image">
+            <!--Jumbotron som innehåller knappar och inloggningsfrmulär -->
+          <div class="jumbotron">
+              <div class="row">
+                <div class="col-md-12">
+                    <h2 class="company-message">Company Message</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--div med rubriker och bilder med information -->
+          <div class="align-center row margin-top-bottom">
+
+          <!--Columnsizes-->
+          <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+          	<h1 id="tjänster" class="divider-text">Tjänster</h1>
+          </div>
+          <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
+          </div>
+
+          <div class="row align-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+           <div class="col-md-4">
+          <img class="rounded-circle" src=".\img\Monitor.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 class="header-style">Någonting</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+          <img class="rounded-circle" src=".\img\CarMonitor.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 class="header-style">Någonting</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+          <img class="rounded-circle" src=".\img\Map.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 class="header-style">Någonting</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+        <div class="col-md-2"></div>
+      </div>
+      <!--Stänger div med rubriker och bilder med information -->
+      <!--Div för information om företaget -->
+      <div class="align-center row margin-top-bottom">
+          <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <h1 id="om-oss" class="divider-text">Om oss</h1>
+          </div>
+          <div class="col-md-5 col-sm-4 col-xs-3 no-margin no-padding"><hr class="spaced-divider"></div>
+        </div>
+
+          <div class="row">
+            <div class="col-md-3">
+           </div>
+             <div class="col-md-6 section-margin">
+              <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+              This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+            </div>
+          </div>
+          <div>
+            <!--New Employee-->
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
+                  <img class="rounded-circle" src=".\img\Generic_Profile_Picture.png" alt="Generic placeholder image" width="140" height="140">
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-6 employee-text">
+                    <h3>Namn</h3>
+                    <br>
+                    <p>Personen har dessa egenskaper etc.</p>
+                    <p>Lite mer information.</p>
+                    <p>Mail: person@company.com</p>
+                    <p>Tel: 111-111-111</p>
+                </div>
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+                          <!--New Employee-->
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
+                  <img class="rounded-circle" src=".\img\Generic_Profile_Picture.png" alt="Generic placeholder image" width="140" height="140">
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-6 employee-text">
+                    <h3>Namn</h3>
+                    <br>
+                    <p>Personen har dessa egenskaper etc.</p>
+                    <p>Lite mer information.</p>
+                    <p>Mail: person@company.com</p>
+                    <p>Tel: 111-111-111</p>
+                </div>
+              <div class="col-md-3 col-sm-2 col-xs-1"></div>
+            </div>
+            <!--New Employee-->
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
+                  <img class="rounded-circle" src=".\img\Generic_Profile_Picture.png" alt="Generic placeholder image" width="140" height="140">
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-6 employee-text">
+                    <h3>Namn</h3>
+                    <br>
+                    <p>Personen har dessa egenskaper etc.</p>
+                    <p>Lite mer information.</p>
+                    <p>Mail: person@company.com</p>
+                    <p>Tel: 111-111-111</p>
+                </div>
+              <div class="col-md-3 col-sm-2 col-xs-1"></div>
+            </div>
+            <!--New Employee-->
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
+                  <img class="rounded-circle" src=".\img\Generic_Profile_Picture.png" alt="Generic placeholder image" width="140" height="140">
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-6 employee-text">
+                    <h3>Namn</h3>
+                    <br>
+                    <p>Personen har dessa egenskaper etc.</p>
+                    <p>Lite mer information.</p>
+                    <p>Mail: person@company.com</p>
+                    <p>Tel: 111-111-111</p>
+                </div>
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+          </div>
+            <!--kontakt formulär -->
+          <div class="row align-center margin-top-bottom">
+          <!--Columnsizes-->
+         <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6">
+            <h1 id="kontakt" class=" divider-text">Kontakt</h1>
+          </div>
+          <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
+        </div>
+
+
+        <div>
+          <!--Kontakt -->
+          <div class="row">
+            <div class="col-md-2 col-sm-0 col-xs-0"></div>
+            <div class="col-md-2 col-sm-12 col-xs-12 employee-text">
+              <br>
+              <p style="font-size: 20px;">Some Adress</p>
+              <p style="font-size: 20px;">411 04 Göteborg</p>
+              <br>
+              <br>
+              <p style="font-size: 20px;">info@company.se</p>
+              <p style="font-size: 20px;">Tel: 111-111-111</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div style="height: 40em;" id="map" ></div>
+            </div>
+            <div class="col-md-2 col-sm-0 col-xs-0"></div>
+          </div>
+          <div style="height: 2em;" class="row"></div>
+        </div>
+        <!--Stänger kontakt -->
+        </div><!--/.container-fluid -->
+
+        <!--Footer med länkar till sociala medier-->
+        <footer class="footer bar-color">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="footer-company-text col-md-2">
+                <p class="glyphicon glyphicon-copyright-mark white"> 2018 Company</p>
+              </div>
+              <div class="social-logo col-md-2" >
+                  <a href="https://facebook.com/"><img src=".\img\Facebook_logo.png"></a>
+              </div>
+              <div class="col-md-4"></div>                        
+            </div>
+          </div>
+       </footer>
+       
+<!--Länk till bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--Länk till mainscript -->
+<script src=".\script\mainscript.js"></script>
+</body>
+</html>
