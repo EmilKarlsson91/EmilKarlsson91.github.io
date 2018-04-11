@@ -17,61 +17,66 @@
 
 </head>
 <body>
-  <!--Container för hela sidan -->
-<div id="home" class="container-fluid no-padding">
-
+  <!--Container för header -->
+  <div id="home" class="container-fluid no-padding">
   <!-- Header bakgrund-->
-      <header>
-        <!--Navbar som ligger i header -->
-        <nav class="navbar navbar-default fixed-top bar-color no-border">
-        <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
-        </div>
-          <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 container-fluid" >
-              <div class="navbar-header">
-              <!--Knappar till menyn, som också är responsiv -->
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="#"><img id="logo" src=".\img\Logo.png"></a>
-              </div>
-              <!--Responsiv navbar -->
-              <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                <ul class="nav navbar-nav navbar-right">
-                  <li value="0" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#" >Hem</a></li>
-                  <li value="1" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Tjänster</a></li>
-                  <li value="2" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Om oss</a></li>
-                  <li value="3" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Kontakta oss</a></li>
-                </ul>
-              </div>
-              <!--/Responsiv navbar -->
-            </div>
-            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
-            </div>
-            </nav>
-          </header>
-
-          <!--Bakgrund med bild -->
-          <div class="background-image">
-            <!--Jumbotron som innehåller knappar och inloggningsfrmulär -->
-          <div class="jumbotron">
-              <div class="row">
-                <div class="col-md-12">
-                    <h2 class="company-message">Company Message</h2>
-                </div>
-              </div>
-            </div>
+        <header>
+          <!--Navbar som ligger i header -->
+          <nav class="navbar navbar-default fixed-top bar-color no-border">
+          <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
           </div>
+            <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 container-fluid" >
+                <div class="navbar-header">
+                <!--Knappar till menyn, som också är responsiv -->
+                <button id="hamburger-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img id="logo" src=".\img\Logo.png"></a>
+                </div>
+                <!--Responsiv navbar -->
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li value="0" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#" >Hem</a></li>
+                    <li value="1" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Tjänster</a></li>
+                    <li value="2" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Om oss</a></li>
+                    <li value="3" class="button header-menu-item"><a class="auto-height no-margin header-menu-item-text" href="#">Kontakta oss</a></li>
+                  </ul>
+                </div>
+                <!--/Responsiv navbar -->
+              </div>
+              <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
+              </div>
+              </nav>
+        </header>
+  </div>
 
+  <!--Div för Jumbotron-->
+  <div id="home" class="container-fluid no-padding">
+    <!--Bakgrund med bild -->
+    <div class="background-image">
+      <!--Jumbotron som innehåller knappar och inloggningsfrmulär -->
+    <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-12">
+              <h2 class="company-message">Company Message</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+          <!--Div för Tjänster-->
           <!--div med rubriker och bilder med information -->
+        <div id="services" class="container-fluid no-padding">
           <div class="align-center row margin-top-bottom">
-
           <!--Columnsizes-->
+          <div ></div>
           <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-          	<h1 id="tjänster" class="divider-text">Tjänster</h1>
+          	<h1 class="divider-text">Tjänster</h1>
           </div>
           <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
           </div>
@@ -98,12 +103,15 @@
       </div>
         <div class="col-md-2"></div>
       </div>
+    </div>
       <!--Stänger div med rubriker och bilder med information -->
+
       <!--Div för information om företaget -->
+      <div id="about" class="container-fluid no-padding">
       <div class="align-center row margin-top-bottom">
           <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <h1 id="om-oss" class="divider-text">Om oss</h1>
+            <h1 class="divider-text">Om oss</h1>
           </div>
           <div class="col-md-5 col-sm-4 col-xs-3 no-margin no-padding"><hr class="spaced-divider"></div>
         </div>
@@ -182,12 +190,15 @@
                 <div class="col-md-3 col-sm-2 col-xs-1"></div>
               </div>
           </div>
+          </div>
+
             <!--kontakt formulär -->
+            <div id="contact" class="container-fluid no-padding">
           <div class="row align-center margin-top-bottom">
           <!--Columnsizes-->
          <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <h1 id="kontakt" class=" divider-text">Kontakt</h1>
+            <h1 class=" divider-text">Kontakt</h1>
           </div>
           <div class="col-md-5 col-sm-4 col-xs-3 no-margin o-padding"><hr class="spaced-divider"></div>
         </div>
@@ -197,12 +208,10 @@
           <!--Kontakt -->
           <div class="row">
             <div class="col-md-2 col-sm-0 col-xs-0"></div>
-            <div class="col-md-2 col-sm-12 col-xs-12 employee-text">
+            <div class="col-md-2 col-sm-12 col-xs-12">
               <br>
               <p style="font-size: 20px;">Some Adress</p>
               <p style="font-size: 20px;">411 04 Göteborg</p>
-              <br>
-              <br>
               <p style="font-size: 20px;">info@company.se</p>
               <p style="font-size: 20px;">Tel: 111-111-111</p>
             </div>
@@ -217,6 +226,7 @@
         </div><!--/.container-fluid -->
 
         <!--Footer med länkar till sociala medier-->
+        <div id="footer" class="container-fluid no-padding">
         <footer class="footer bar-color">
           <div class="container">
             <div class="row">
@@ -231,7 +241,8 @@
             </div>
           </div>
        </footer>
-       
+       </div>
+
 <!--Länk till bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!--Länk till mainscript -->
